@@ -68,4 +68,4 @@ The Three elements demonstrates the front and back are different, the middle and
 
 ## Conclusions
 
-The data shows that there is a statistical difference between the front and back. There is also a difference with the middle and back. However, there is no difference between the middle and front.
+The data shows that there is a statistical difference between the front and back. There is also a difference with the middle and back. However, there is no difference between the middle and front. The probability of the rows ever being the same is 0.000116 therefore we reject the idea that all the rows are the same.
