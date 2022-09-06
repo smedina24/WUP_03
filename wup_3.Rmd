@@ -59,10 +59,13 @@ par(mar = c(3, 8.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 .
+
+
+
 The Three elements demonstrates the front and back are different, the middle and back are different, but the middle and front are statistically not different.
 
 
 
 ## Conclusions
 
-
+The data shows that there is a statistical difference between the front and back. There is also a difference with the middle and back. However, there is no difference between the middle and front.
