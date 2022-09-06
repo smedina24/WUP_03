@@ -28,12 +28,10 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 basicCN + geom_boxplot()
 ```
   
+ The box plot shows that the people who sit in the back consume more alcohol than the people who sit in the middle or front. Additionally, the median also demonstrates this because the median for the people who sat in the back is 2. The median for those who sat in the front is zero. Finally, the median for those who sat in the middle is one. 
+  
   
 ### get fancy  
-
-```{r}
-basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
-```
 
 ## Numerical Summarys 
 
