@@ -35,6 +35,15 @@ basicCN + geom_boxplot()
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+
+
+
+
+The median for the back is 4. The median for the front is 0. The median for the middle is 1.
+
 ## Inferential Tests
 ```{r}
 model1 <- aov(alcohol~Seat,data=davisdata)
