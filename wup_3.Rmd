@@ -36,6 +36,23 @@ basicCN + geom_boxplot()
 ## Numerical Summarys 
 
 ## Inferential Tests
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+
+We can see through the one way anova test and given the Pr value of 0.000116 indicates that there is a 0.000116 chance that all the rows will be the same. This allows us to conclude that each row will have a always have a different value for alcohol consumption. Therefore, each row is different from one another.
+
+```{r}
+#we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the factors
+par(mar = c(3, 8.7, 2, 2))
+plot(TukeyHSD(model1),las=2)
+```
+.
+The Three elements demonstrates the front and back are different, the middle and back are different, but the middle and front are statistically not different.
+
+
 
 ## Conclusions
 
